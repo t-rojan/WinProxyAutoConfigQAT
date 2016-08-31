@@ -721,6 +721,8 @@ namespace WinHTTPdotNet
         [DllImport("winhttp.dll", SetLastError = true, CharSet = CharSet.Unicode)]
         public static extern bool WinHttpGetProxyForUrl(IntPtr hSession, string lpcwszUrl, ref AutoProxyOptions pAutoProxyOptions, ref ProxyInfo pProxyInfo);
 
+        [DllImport("winhttp.dll", SetLastError = true, CharSet = CharSet.Unicode)]
+        public static extern bool WinHttpGetIEProxyConfigForCurrentUser(ref CurrentUserIEProxyConfig pCurrentUserIEProxyConfig);
 
         // "Nice" interface
 

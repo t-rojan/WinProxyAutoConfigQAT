@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyAutoConfigQAT", "WinPr
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "WinProxyAutoConfigQAT Installer\WinProxyAutoConfigQAT Installer.vdproj", "{A1420FFA-E72D-499A-A6C2-1EE6C91313B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinHTTP", "WinHTTP\WinHTTP.csproj", "{E9B92D53-E84B-4236-A580-040A17197F68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinHTTPdotNet", "WinHTTP\WinHTTPdotNet.csproj", "{E9B92D53-E84B-4236-A580-040A17197F68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
